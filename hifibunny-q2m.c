@@ -148,5 +148,4 @@ static struct platform_driver snd_rpi_hifibunny_q2m_driver = {
 module_platform_driver(snd_rpi_hifibunny_q2m_driver);
 
 MODULE_DESCRIPTION("ASoC Driver for hifibunny Q2M");
-MODULE_AUTHOR("Jiang Li");
 MODULE_LICENSE("GPL");

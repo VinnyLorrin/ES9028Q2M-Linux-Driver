@@ -454,5 +454,4 @@ module_i2c_driver(hifibunny_codec_i2c_driver);
 
 
 MODULE_DESCRIPTION("ASoC Hifibunny Q2M codec driver");
-MODULE_AUTHOR("Jiang Li");
 MODULE_LICENSE("GPL");
