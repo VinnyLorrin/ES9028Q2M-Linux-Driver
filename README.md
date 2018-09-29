@@ -63,6 +63,7 @@ if rpi-source gives kernel version mismatch, use
 ### 3. Change /boot/config.txt
 
 remove existing dtoverlay
+Add following lines.
 
     dtoverlay=hifibunny-q2m
     dtparam=i2c_arm=on

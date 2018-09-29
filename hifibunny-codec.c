@@ -2,7 +2,6 @@
  * Driver for hifibunny-codec
  *
  * Author: Satoru Kawase
- * Modified by: Jiang Li
  *      Copyright 2018
  *
  * This program is free software; you can redistribute it and/or
