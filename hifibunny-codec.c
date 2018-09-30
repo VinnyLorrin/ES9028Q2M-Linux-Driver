@@ -306,7 +306,7 @@ static void hifibunny_codec_dai_shutdown(struct snd_pcm_substream * substream, s
 
 static int hifibunny_codec_dai_prepare(struct snd_pcm_substream *substream, struct snd_soc_dai *dai)
 {
-	hifibunny_codec_dac_unmute(dai)
+	hifibunny_codec_dac_unmute(dai);
 	return 0;
 }
 
@@ -322,7 +322,7 @@ static int hifibunny_codec_dai_trigger(struct snd_pcm_substream *substream, int 
 		case SNDRV_PCM_TRIGGER_STOP:
 		case SNDRV_PCM_TRIGGER_SUSPEND:
 		case SNDRV_PCM_TRIGGER_PAUSE_PUSH:
-			hifibunny_codec_dac_mute(dai, 1)
+			hifibunny_codec_dac_mute(dai, 1);
 			break;
 		default:
 			ret = -EINVAL;

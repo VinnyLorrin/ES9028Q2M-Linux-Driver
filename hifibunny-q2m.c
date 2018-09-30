@@ -25,8 +25,6 @@
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 
-#include "hifibunny-codec.h"
-
 
 static int snd_rpi_hifibunny_q2m_init(struct snd_soc_pcm_runtime *rtd)
 {
